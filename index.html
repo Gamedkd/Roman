@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>สุขสันต์วันเกิดลุง!</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="background-animation"></div>
+  <div class="container">
+    <h1>สุขสันต์วันเกิดนะลุง! 🎂</h1>
+    <img src="images/1.png" alt="เค้กวันเกิด" class="cake-img" />
+    <p class="message">HBD จาก RomanJDM😊</p>
+    <button onclick="showSurprise()">กดเพื่อดูเซอร์ไพรส์ 🎁</button>
+    <div id="popup-card" class="popup hidden">
+      <h2>💌 การ์ดจากหลาน</h2>
+      <p>ขอบคุณลุงที่ดูแลเราเสมอมา ขอให้ลุงมีวันที่ดีที่สุดในชีวิตนะครับ 💙</p>
+    </div>
+  </div>
+  <!-- เสียง -->
+  <audio id="firework-sound" src="boom.mp3" preload="auto"></audio>
+  <audio id="bg-music" src="music.mp3" preload="auto" loop></audio>
+  
+  <!-- Confetti Library -->
+  <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.5.1/dist/confetti.browser.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
